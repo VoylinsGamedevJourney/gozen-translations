@@ -19,5 +19,5 @@ def generate_mo_files():
     print('-= Generating localization files complete! =-')
 
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     generate_mo_files()
