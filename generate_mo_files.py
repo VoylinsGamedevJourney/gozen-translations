@@ -3,6 +3,9 @@ import os
 
 def generate_mo_files():
     print('-= Generating *.mo files =-')
+    print('Updating git ...')
+    os.system('git pull')
+
     current_dir = os.path.dirname(__file__)
     po_files_dir = os.path.join(current_dir, 'po_files')
 
